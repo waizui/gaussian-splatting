@@ -1,5 +1,16 @@
 
 === Running experiment: bicycle ===
+CLI: /home/guest/miniconda3/envs/3dgs/bin/python /home/guest/repos/gaussian-splatting/train.py --eval --resolution 4 --model_path /home/guest/repos/gaussian-splatting/output/experiments/bicycle --source_path /home/guest/repos/dataset/assets/bicycle
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torch/torch_version.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined, no-redef]
+Optimizing /home/guest/repos/gaussian-splatting/output/experiments/bicycle
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: /home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/lpips/weights/v0.1/vgg.pth
+Output folder: /home/guest/repos/gaussian-splatting/output/experiments/bicycle [08/11 12:10:50]
 Tensorboard not available: not logging progress [08/11 12:10:50]
 ------------LLFF HOLD------------- [08/11 12:10:50]
 Reading camera 194/194 [08/11 12:10:50]
@@ -23,6 +34,18 @@ Training progress: 100%|██████████████████�
 Training complete. [08/11 13:04:12]
 
 === Running experiment: garden ===
+CLI: /home/guest/miniconda3/envs/3dgs/bin/python /home/guest/repos/gaussian-splatting/train.py --eval --resolution 4 --model_path /home/guest/repos/gaussian-splatting/output/experiments/garden --source_path /home/guest/repos/dataset/assets/garden
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torch/torch_version.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined, no-redef]
+Optimizing /home/guest/repos/gaussian-splatting/output/experiments/garden
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: /home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/lpips/weights/v0.1/vgg.pth
+Output folder: /home/guest/repos/gaussian-splatting/output/experiments/garden [08/11 13:04:14]
+Tensorboard not available: not logging progress [08/11 13:04:14]
 ------------LLFF HOLD------------- [08/11 13:04:15]
 Reading camera 185/185 [08/11 13:04:15]
 Loading Training Cameras [08/11 13:04:15]
@@ -45,6 +68,18 @@ Training progress: 100%|██████████████████�
 Training complete. [08/11 13:52:25]
 
 === Running experiment: stump ===
+CLI: /home/guest/miniconda3/envs/3dgs/bin/python /home/guest/repos/gaussian-splatting/train.py --eval --resolution 4 --model_path /home/guest/repos/gaussian-splatting/output/experiments/stump --source_path /home/guest/repos/dataset/assets/stump
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torch/torch_version.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined, no-redef]
+Optimizing /home/guest/repos/gaussian-splatting/output/experiments/stump
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: /home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/lpips/weights/v0.1/vgg.pth
+Output folder: /home/guest/repos/gaussian-splatting/output/experiments/stump [08/11 13:52:27]
+Tensorboard not available: not logging progress [08/11 13:52:27]
 ------------LLFF HOLD------------- [08/11 13:52:28]
 Reading camera 125/125 [08/11 13:52:28]
 Loading Training Cameras [08/11 13:52:28]
@@ -67,6 +102,18 @@ Training progress: 100%|██████████████████�
 Training complete. [08/11 14:36:57]
 
 === Running experiment: bonsai ===
+CLI: /home/guest/miniconda3/envs/3dgs/bin/python /home/guest/repos/gaussian-splatting/train.py --eval --resolution 2 --model_path /home/guest/repos/gaussian-splatting/output/experiments/bonsai --source_path /home/guest/repos/dataset/assets/bonsai
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torch/torch_version.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined, no-redef]
+Optimizing /home/guest/repos/gaussian-splatting/output/experiments/bonsai
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: /home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/lpips/weights/v0.1/vgg.pth
+Output folder: /home/guest/repos/gaussian-splatting/output/experiments/bonsai [08/11 14:37:00]
+Tensorboard not available: not logging progress [08/11 14:37:00]
 ------------LLFF HOLD------------- [08/11 14:37:00]
 Reading camera 292/292 [08/11 14:37:00]
 Loading Training Cameras [08/11 14:37:00]
@@ -89,6 +136,18 @@ Training progress: 100%|██████████████████�
 Training complete. [08/11 15:06:05]
 
 === Running experiment: counter ===
+CLI: /home/guest/miniconda3/envs/3dgs/bin/python /home/guest/repos/gaussian-splatting/train.py --eval --resolution 2 --model_path /home/guest/repos/gaussian-splatting/output/experiments/counter --source_path /home/guest/repos/dataset/assets/counter
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torch/torch_version.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined, no-redef]
+Optimizing /home/guest/repos/gaussian-splatting/output/experiments/counter
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: /home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/lpips/weights/v0.1/vgg.pth
+Output folder: /home/guest/repos/gaussian-splatting/output/experiments/counter [08/11 15:06:08]
+Tensorboard not available: not logging progress [08/11 15:06:08]
 ------------LLFF HOLD------------- [08/11 15:06:08]
 Reading camera 240/240 [08/11 15:06:08]
 Loading Training Cameras [08/11 15:06:08]
@@ -111,6 +170,18 @@ Training progress: 100%|██████████████████�
 Training complete. [08/11 15:40:39]
 
 === Running experiment: room ===
+CLI: /home/guest/miniconda3/envs/3dgs/bin/python /home/guest/repos/gaussian-splatting/train.py --eval --resolution 2 --model_path /home/guest/repos/gaussian-splatting/output/experiments/room --source_path /home/guest/repos/dataset/assets/room
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torch/torch_version.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined, no-redef]
+Optimizing /home/guest/repos/gaussian-splatting/output/experiments/room
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: /home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/lpips/weights/v0.1/vgg.pth
+Output folder: /home/guest/repos/gaussian-splatting/output/experiments/room [08/11 15:40:42]
+Tensorboard not available: not logging progress [08/11 15:40:42]
 ------------LLFF HOLD------------- [08/11 15:40:42]
 Reading camera 311/311 [08/11 15:40:42]
 Loading Training Cameras [08/11 15:40:42]
@@ -133,6 +204,18 @@ Training progress: 100%|██████████████████�
 Training complete. [08/11 16:16:56]
 
 === Running experiment: kitchen ===
+CLI: /home/guest/miniconda3/envs/3dgs/bin/python /home/guest/repos/gaussian-splatting/train.py --eval --resolution 2 --model_path /home/guest/repos/gaussian-splatting/output/experiments/kitchen --source_path /home/guest/repos/dataset/assets/kitchen
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torch/torch_version.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined, no-redef]
+Optimizing /home/guest/repos/gaussian-splatting/output/experiments/kitchen
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: /home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/lpips/weights/v0.1/vgg.pth
+Output folder: /home/guest/repos/gaussian-splatting/output/experiments/kitchen [08/11 16:16:59]
+Tensorboard not available: not logging progress [08/11 16:16:59]
 ------------LLFF HOLD------------- [08/11 16:17:00]
 Reading camera 279/279 [08/11 16:17:00]
 Loading Training Cameras [08/11 16:17:00]
@@ -189,6 +272,18 @@ Training progress: 100%|██████████████████�
 Training complete. [08/11 17:20:04]
 
 === Running experiment: truck ===
+CLI: /home/guest/miniconda3/envs/3dgs/bin/python /home/guest/repos/gaussian-splatting/train.py --eval --resolution 1 --model_path /home/guest/repos/gaussian-splatting/output/experiments/truck --source_path /home/guest/repos/dataset/assets/truck
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torch/torch_version.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined, no-redef]
+Optimizing /home/guest/repos/gaussian-splatting/output/experiments/truck
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: /home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/lpips/weights/v0.1/vgg.pth
+Output folder: /home/guest/repos/gaussian-splatting/output/experiments/truck [08/11 17:20:06]
+Tensorboard not available: not logging progress [08/11 17:20:06]
 ------------LLFF HOLD------------- [08/11 17:20:07]
 Reading camera 251/251 [08/11 17:20:07]
 Loading Training Cameras [08/11 17:20:07]
