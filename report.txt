@@ -1,0 +1,212 @@
+
+=== Running experiment: bicycle ===
+Tensorboard not available: not logging progress [08/11 12:10:50]
+------------LLFF HOLD------------- [08/11 12:10:50]
+Reading camera 194/194 [08/11 12:10:50]
+Loading Training Cameras [08/11 12:10:50]
+Loading Test Cameras [08/11 12:11:20]
+Number of points at initialisation :  54275 [08/11 12:11:25]
+Training progress:  23%|████████████████████████▌                                                                                | 7000/30000 [06:03<34:30, 11.11it/s, Loss=0.0900472, Depth Loss=0.0000000]
+[ITER 7000] Evaluating test: L1 0.042666573375463486 PSNR 24.21357734680176 SSIM 0.6915816259384155 LPIPS 0.3155354726314545 [08/11 12:17:31]
+
+[ITER 7000] Evaluating train: L1 0.040048992633819586 PSNR 23.0463249206543 SSIM 0.7435900330543519 LPIPS 0.28940945863723755 [08/11 12:17:31]
+
+[ITER 7000] Saving Gaussians [08/11 12:17:32]
+Training progress: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 30000/30000 [52:26<00:00,  9.53it/s, Loss=0.0502627, Depth Loss=0.0000000]
+
+[ITER 30000] Evaluating test: L1 0.03685282230377197 PSNR 25.662762451171876 SSIM 0.7799549674987794 LPIPS 0.20229034900665283 [08/11 13:03:55]
+
+[ITER 30000] Evaluating train: L1 0.02884952798485756 PSNR 25.914391708374026 SSIM 0.8554879546165467 LPIPS 0.17086389362812043 [08/11 13:03:55]
+
+[ITER 30000] Saving Gaussians [08/11 13:03:55]
+
+Training complete. [08/11 13:04:12]
+
+=== Running experiment: garden ===
+------------LLFF HOLD------------- [08/11 13:04:15]
+Reading camera 185/185 [08/11 13:04:15]
+Loading Training Cameras [08/11 13:04:15]
+Loading Test Cameras [08/11 13:04:46]
+Number of points at initialisation :  138766 [08/11 13:04:51]
+Training progress:  23%|████████████████████████▌                                                                                | 7000/30000 [07:16<36:43, 10.44it/s, Loss=0.0477526, Depth Loss=0.0000000]
+[ITER 7000] Evaluating test: L1 0.030485639503846564 PSNR 26.62154754002889 SSIM 0.8398672689994175 LPIPS 0.1527544396619002 [08/11 13:12:10]
+
+[ITER 7000] Evaluating train: L1 0.024278483167290688 PSNR 29.027623367309573 SSIM 0.8786561131477356 LPIPS 0.13798226416110992 [08/11 13:12:11]
+
+[ITER 7000] Saving Gaussians [08/11 13:12:11]
+Training progress: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 30000/30000 [47:18<00:00, 10.57it/s, Loss=0.0364010, Depth Loss=0.0000000]
+
+[ITER 30000] Evaluating test: L1 0.025947875576093793 PSNR 27.791169722874958 SSIM 0.8748655592401822 LPIPS 0.1028332927574714 [08/11 13:52:12]
+
+[ITER 30000] Evaluating train: L1 0.017142120562493802 PSNR 31.828305053710938 SSIM 0.9325061440467834 LPIPS 0.07809626013040544 [08/11 13:52:12]
+
+[ITER 30000] Saving Gaussians [08/11 13:52:12]
+
+Training complete. [08/11 13:52:25]
+
+=== Running experiment: stump ===
+------------LLFF HOLD------------- [08/11 13:52:28]
+Reading camera 125/125 [08/11 13:52:28]
+Loading Training Cameras [08/11 13:52:28]
+Loading Test Cameras [08/11 13:52:47]
+Number of points at initialisation :  32049 [08/11 13:52:49]
+Training progress:  23%|████████████████████████▌                                                                                | 7000/30000 [05:45<32:06, 11.94it/s, Loss=0.0713141, Depth Loss=0.0000000]
+[ITER 7000] Evaluating test: L1 0.035155500285327435 PSNR 26.056532859802246 SSIM 0.7369513772428036 LPIPS 0.2830793531611562 [08/11 13:58:37]
+
+[ITER 7000] Evaluating train: L1 0.027129974588751795 PSNR 27.183526611328126 SSIM 0.8135195970535278 LPIPS 0.24975931942462923 [08/11 13:58:37]
+
+[ITER 7000] Saving Gaussians [08/11 13:58:37]
+Training progress: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 30000/30000 [43:50<00:00, 11.40it/s, Loss=0.0301559, Depth Loss=0.0000000]
+
+[ITER 30000] Evaluating test: L1 0.03140267787966877 PSNR 27.02877378463745 SSIM 0.7831864207983017 LPIPS 0.20783028658479452 [08/11 14:36:42]
+
+[ITER 30000] Evaluating train: L1 0.016557748802006247 PSNR 31.492965698242188 SSIM 0.9147924661636353 LPIPS 0.13281080573797227 [08/11 14:36:42]
+
+[ITER 30000] Saving Gaussians [08/11 14:36:42]
+
+Training complete. [08/11 14:36:57]
+
+=== Running experiment: bonsai ===
+------------LLFF HOLD------------- [08/11 14:37:00]
+Reading camera 292/292 [08/11 14:37:00]
+Loading Training Cameras [08/11 14:37:00]
+Loading Test Cameras [08/11 14:37:23]
+Number of points at initialisation :  206613 [08/11 14:37:26]
+Training progress:  23%|████████████████████████▌                                                                                | 7000/30000 [06:17<22:27, 17.07it/s, Loss=0.0245558, Depth Loss=0.0000000]
+[ITER 7000] Evaluating test: L1 0.019040422765789808 PSNR 30.093418482187634 SSIM 0.9302423435288507 LPIPS 0.20615011614722176 [08/11 14:43:49]
+
+[ITER 7000] Evaluating train: L1 0.015779753029346467 PSNR 30.809565734863284 SSIM 0.9365164756774903 LPIPS 0.18603859841823578 [08/11 14:43:50]
+
+[ITER 7000] Saving Gaussians [08/11 14:43:50]
+Training progress: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 30000/30000 [28:29<00:00, 17.55it/s, Loss=0.0171384, Depth Loss=0.0000000]
+
+[ITER 30000] Evaluating test: L1 0.014271668108129824 PSNR 32.55582391893542 SSIM 0.9491235613822937 LPIPS 0.17635215335601087 [08/11 15:06:01]
+
+[ITER 30000] Evaluating train: L1 0.010904343985021115 PSNR 33.76102256774902 SSIM 0.9580418944358826 LPIPS 0.15071398615837098 [08/11 15:06:02]
+
+[ITER 30000] Saving Gaussians [08/11 15:06:02]
+
+Training complete. [08/11 15:06:05]
+
+=== Running experiment: counter ===
+------------LLFF HOLD------------- [08/11 15:06:08]
+Reading camera 240/240 [08/11 15:06:08]
+Loading Training Cameras [08/11 15:06:08]
+Loading Test Cameras [08/11 15:06:27]
+Number of points at initialisation :  155767 [08/11 15:06:30]
+Training progress:  23%|████████████████████████▌                                                                                | 7000/30000 [07:06<27:53, 13.74it/s, Loss=0.0395409, Depth Loss=0.0000000]
+[ITER 7000] Evaluating test: L1 0.023113241698592902 PSNR 27.37204672495524 SSIM 0.889338086048762 LPIPS 0.22271863520145416 [08/11 15:13:41]
+
+[ITER 7000] Evaluating train: L1 0.018035484477877617 PSNR 29.057007980346683 SSIM 0.9136291265487672 LPIPS 0.20271623432636263 [08/11 15:13:41]
+
+[ITER 7000] Saving Gaussians [08/11 15:13:41]
+Training progress: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 30000/30000 [34:00<00:00, 14.70it/s, Loss=0.0219330, Depth Loss=0.0000000]
+
+[ITER 30000] Evaluating test: L1 0.017679286623994508 PSNR 29.20652281443278 SSIM 0.9172197878360748 LPIPS 0.17936620463927586 [08/11 15:40:35]
+
+[ITER 30000] Evaluating train: L1 0.013168781436979771 PSNR 31.54966049194336 SSIM 0.9421716809272767 LPIPS 0.15576432943344118 [08/11 15:40:35]
+
+[ITER 30000] Saving Gaussians [08/11 15:40:35]
+
+Training complete. [08/11 15:40:39]
+
+=== Running experiment: room ===
+------------LLFF HOLD------------- [08/11 15:40:42]
+Reading camera 311/311 [08/11 15:40:42]
+Loading Training Cameras [08/11 15:40:42]
+Loading Test Cameras [08/11 15:41:06]
+Number of points at initialisation :  112627 [08/11 15:41:09]
+Training progress:  23%|████████████████████████▌                                                                                | 7000/30000 [06:25<27:05, 14.15it/s, Loss=0.0320262, Depth Loss=0.0000000]
+[ITER 7000] Evaluating test: L1 0.020360012108889908 PSNR 29.78102009113018 SSIM 0.9076848992934593 LPIPS 0.23322416727359477 [08/11 15:47:41]
+
+[ITER 7000] Evaluating train: L1 0.015373147279024125 PSNR 32.60906219482422 SSIM 0.9198476314544678 LPIPS 0.22884866893291475 [08/11 15:47:42]
+
+[ITER 7000] Saving Gaussians [08/11 15:47:42]
+Training progress: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 30000/30000 [35:35<00:00, 14.05it/s, Loss=0.0216131, Depth Loss=0.0000000]
+
+[ITER 30000] Evaluating test: L1 0.015680493739170905 PSNR 31.93308478135329 SSIM 0.9298992126415937 LPIPS 0.1932770850566717 [08/11 16:16:51]
+
+[ITER 30000] Evaluating train: L1 0.010761664249002934 PSNR 35.827508544921876 SSIM 0.9451116800308228 LPIPS 0.18507876098155976 [08/11 16:16:52]
+
+[ITER 30000] Saving Gaussians [08/11 16:16:52]
+
+Training complete. [08/11 16:16:56]
+
+=== Running experiment: kitchen ===
+------------LLFF HOLD------------- [08/11 16:17:00]
+Reading camera 279/279 [08/11 16:17:00]
+Loading Training Cameras [08/11 16:17:00]
+Loading Test Cameras [08/11 16:17:22]
+Number of points at initialisation :  241367 [08/11 16:17:25]
+Training progress:  23%|████████████████████████▌                                                                                | 7000/30000 [08:05<33:14, 11.53it/s, Loss=0.0304830, Depth Loss=0.0000000]
+[ITER 7000] Evaluating test: L1 0.021520644373127392 PSNR 29.329753821236746 SSIM 0.9127089943204607 LPIPS 0.14478513236556734 [08/11 16:25:36]
+
+[ITER 7000] Evaluating train: L1 0.01787640117108822 PSNR 30.782014083862308 SSIM 0.9353970170021058 LPIPS 0.1302047073841095 [08/11 16:25:37]
+
+[ITER 7000] Saving Gaussians [08/11 16:25:37]
+Training progress: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 30000/30000 [42:07<00:00, 11.87it/s, Loss=0.0191282, Depth Loss=0.0000000]
+
+[ITER 30000] Evaluating test: L1 0.016658935908760344 PSNR 31.310453469412668 SSIM 0.9333877495356968 LPIPS 0.11401543574673789 [08/11 16:59:38]
+
+[ITER 30000] Evaluating train: L1 0.011202623136341572 PSNR 34.66319885253906 SSIM 0.9678349018096924 LPIPS 0.07777768597006798 [08/11 16:59:39]
+
+[ITER 30000] Saving Gaussians [08/11 16:59:39]
+
+Training complete. [08/11 16:59:44]
+
+=== Running experiment: train ===
+CLI: /home/guest/miniconda3/envs/3dgs/bin/python /home/guest/repos/gaussian-splatting/train.py --eval --resolution 1 --model_path /home/guest/repos/gaussian-splatting/output/experiments/train --source_path /home/guest/repos/dataset/assets/train
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torch/torch_version.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined, no-redef]
+Optimizing /home/guest/repos/gaussian-splatting/output/experiments/train
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: /home/guest/miniconda3/envs/3dgs/lib/python3.9/site-packages/lpips/weights/v0.1/vgg.pth
+Output folder: /home/guest/repos/gaussian-splatting/output/experiments/train [08/11 16:59:47]
+Tensorboard not available: not logging progress [08/11 16:59:47]
+------------LLFF HOLD------------- [08/11 16:59:47]
+Reading camera 301/301 [08/11 16:59:47]
+Loading Training Cameras [08/11 16:59:47]
+Loading Test Cameras [08/11 16:59:49]
+Number of points at initialisation :  182686 [08/11 16:59:49]
+Training progress:  23%|██████████████████████████▏                                                                                     | 7000/30000 [03:23<14:24, 26.62it/s, Loss=0.1003781, Depth Loss=0.0000000]
+[ITER 7000] Evaluating test: L1 0.07665729807003548 PSNR 19.812391331321315 SSIM 0.721410839965469 LPIPS 0.31815721643598455 [08/11 17:03:14]
+
+[ITER 7000] Evaluating train: L1 0.054818421602249146 PSNR 21.764231491088868 SSIM 0.7592028021812439 LPIPS 0.29509811699390415 [08/11 17:03:15]
+
+[ITER 7000] Saving Gaussians [08/11 17:03:15]
+Training progress: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30000/30000 [20:08<00:00, 24.83it/s, Loss=0.0418078, Depth Loss=0.0000000]
+
+[ITER 30000] Evaluating test: L1 0.057093639416914234 PSNR 22.103004656339944 SSIM 0.821837146031229 LPIPS 0.19688766096767626 [08/11 17:20:00]
+
+[ITER 30000] Evaluating train: L1 0.025218638777732852 PSNR 27.70401725769043 SSIM 0.9008002281188965 LPIPS 0.1394839495420456 [08/11 17:20:00]
+
+[ITER 30000] Saving Gaussians [08/11 17:20:00]
+
+Training complete. [08/11 17:20:04]
+
+=== Running experiment: truck ===
+------------LLFF HOLD------------- [08/11 17:20:07]
+Reading camera 251/251 [08/11 17:20:07]
+Loading Training Cameras [08/11 17:20:07]
+Loading Test Cameras [08/11 17:20:08]
+Number of points at initialisation :  136029 [08/11 17:20:09]
+Training progress:  23%|██████████████████████████▏                                                                                     | 7000/30000 [04:25<19:45, 19.40it/s, Loss=0.0598044, Depth Loss=0.0000000]
+[ITER 7000] Evaluating test: L1 0.03829155839048326 PSNR 23.989040076732635 SSIM 0.853479603305459 LPIPS 0.19619399681687355 [08/11 17:24:36]
+
+[ITER 7000] Evaluating train: L1 0.032811726257205014 PSNR 24.990764617919922 SSIM 0.8696331858634949 LPIPS 0.17681833803653718 [08/11 17:24:36]
+
+[ITER 7000] Saving Gaussians [08/11 17:24:36]
+Training progress: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30000/30000 [26:52<00:00, 18.61it/s, Loss=0.0351618, Depth Loss=0.0000000]
+
+[ITER 30000] Evaluating test: L1 0.0303832363570109 PSNR 25.483816504478455 SSIM 0.8852753266692162 LPIPS 0.14298693975433707 [08/11 17:47:03]
+
+[ITER 30000] Evaluating train: L1 0.0223810400813818 PSNR 27.669474411010743 SSIM 0.9184332847595216 LPIPS 0.11739026308059693 [08/11 17:47:03]
+
+[ITER 30000] Saving Gaussians [08/11 17:47:03]
+
+Training complete. [08/11 17:47:10]
+
