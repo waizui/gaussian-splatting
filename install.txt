@@ -1,0 +1,31 @@
+install cudatoolkit sdk, not runtime: sudo sh cuda_11.8.0_520.61.05_linux.run --toolkit --silent --override
+
+export PATH="/usr/local/cuda/bin:$PATH"
+export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
+export CUDA_HOME="/usr/local/cuda"
+
+# manully create not using their's
+conda create -n 3dgs python=3.9
+
+pip install pyyaml typeguard
+
+pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
+
+pip install opencv-python==4.6.0.66
+pip install numpy==1.26.4
+pip install plyfile
+pip install tqdm
+pip install joblib
+
+
+activate conda
+
+# prevent using conda gcc
+export CC=/usr/bin/gcc-11
+export CXX=/usr/bin/g++-11
+export CUDAHOSTCXX=/usr/bin/g++-11
+export NVCC_PREPEND_FLAGS="--compiler-bindir=/usr/bin/g++-11"
+
+pip install simple_knn 
+pip install rasterizer 
+pip install submodules/fused-ssim
